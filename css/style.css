@@ -1,0 +1,71 @@
+
+    *{
+        margin: 0;
+        padding:0;
+    }
+body{
+    background-image: url(images/sh.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+        background-attachment: fixed;
+        margin: 0;
+}
+    .shapka{
+        text-align: center;
+    }
+
+    header,footer{
+        background-color: white;
+        align-items: center;
+        padding: 15px 50px;
+        text-align: center;
+    }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.art:hover{
+    
+    background-color:rgb(128, 125, 125);
+  }
+    
+    main{
+        margin:50px 20%;
+        border-radius: 20px;
+        padding: 50px;
+        min-height: calc(100vh - 92px - 80px - 100px);
+    }
+    article{
+        background-color:white;
+        padding: 25px;
+        border-radius: 20px;
+        margin:20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+    }
+
+       article{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+       }
+       
+       article>p{
+       font-size: 30px;
+       text-decoration: none;
+       color: black;
+       }
+       
+       .pustota{
+        width: 10px;
+       }
+    
+    h1{
+        text-align: center;
+        
+    }
+    .shapka>p{
+font-size: 20px;
+    }
